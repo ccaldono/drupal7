@@ -1,0 +1,22 @@
+name = Reservations FullCalendar
+package = Reservations
+description = "Adds FullCalendar Views of Reservations"
+
+core = 7.x
+
+dependencies[] = reservations
+dependencies[] = reservations_ui
+dependencies[] = fullcalendar
+dependencies[] = views
+dependencies[] = date_views
+
+files[] = reservations_fullcalendar.module
+files[] = reservations_fullcalendar.views_default.inc
+
+
+; Information added by Drupal.org packaging script on 2014-07-07
+version = "7.x-2.0-alpha2+4-dev"
+core = "7.x"
+project = "reservations"
+datestamp = "1404752629"
+

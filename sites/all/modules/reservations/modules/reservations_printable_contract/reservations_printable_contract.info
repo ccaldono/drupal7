@@ -1,0 +1,19 @@
+name = Reservations Printable Contract
+package = Reservations
+description = "Adds a printable contract option to Reservation nodes."
+
+core = 7.x
+
+dependencies[] = reservations
+
+configure = admin/config/reservations/contract
+
+files[] = reservations_printable_contract.module
+
+
+; Information added by Drupal.org packaging script on 2014-07-07
+version = "7.x-2.0-alpha2+4-dev"
+core = "7.x"
+project = "reservations"
+datestamp = "1404752629"
+

@@ -1,0 +1,22 @@
+name = Reservations UI
+package = Reservations
+description = "Includes several views for managing reservations and adds tabs to user and reservable items"
+
+core = 7.x
+
+dependencies[] = reservations
+dependencies[] = views
+dependencies[] = date_views
+
+files[] = reservations_ui.module
+files[] = reservations_ui.views_default.inc
+
+configure = admin/config/reservations/ui
+
+
+; Information added by Drupal.org packaging script on 2014-07-07
+version = "7.x-2.0-alpha2+4-dev"
+core = "7.x"
+project = "reservations"
+datestamp = "1404752629"
+
